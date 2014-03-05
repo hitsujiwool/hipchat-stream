@@ -6,7 +6,7 @@ stream interface for [HipChat API](https://www.hipchat.com/docs/api/), specializ
 
 `$ npm install hipchat-stream`
 
-# Usage
+## Usage
 
 As far we support only `/rooms/message`.
 
@@ -25,6 +25,6 @@ var readable = from(['this', 'is', 'a', 'readable', 'stream']);
 from.pipe(hipchat).pipe(process.stdout) // {"status":"sent"}{"status:"sent"} ...
 ```
 
-# License
+## License
 
 MIT
