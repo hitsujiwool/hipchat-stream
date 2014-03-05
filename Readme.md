@@ -13,7 +13,7 @@ var hipchat = require('hipchat-stream');
 var from = require('from');
 
 var stream = hipchat('your auth token', 'room ID', 'from', {
-	// other optional parameters (e.g. color, notify)
+  // other optional parameters (e.g. color, notify)
 }
 
 var readable = from(['this', 'is', 'a', 'readable', 'stream']);
