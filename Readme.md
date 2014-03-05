@@ -2,6 +2,10 @@
 
 stream interface for [HipChat API](https://www.hipchat.com/docs/api/), specialized for message posting
 
+## Installation
+
+`$ npm install hipchat-stream`
+
 # Usage
 
 As far we support only `/rooms/message`.
