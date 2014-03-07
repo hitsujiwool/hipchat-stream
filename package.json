@@ -1,6 +1,6 @@
 {
   "name": "hipchat-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "stream interface for HipChat API, specialized for message posting",
   "main": "index.js",
   "scripts": {
